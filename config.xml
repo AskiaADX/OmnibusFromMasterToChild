@@ -7,7 +7,7 @@
   <info>
     <name>OmnibusFromMasterToChild</name>
     <guid>ffb8d6ec-cf55-46da-a08a-291f16ec0162</guid>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <date>2020-02-27</date>
     <description><![CDATA[Manage the redirection from master survey to child surveys for omnibus projects]]></description>
     <company>Askia SAS</company>
