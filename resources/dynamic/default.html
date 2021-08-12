@@ -1,3 +1,5 @@
 <div id="adc_{%= CurrentADC.InstanceId %}">
     <input type="hidden" id="redirection{%= CurrentADC.InstanceId %}" name="{%= CurrentQuestion.InputName() %}" value="{%= CurrentQuestion.InputValue() %}" />
+    {% dim stateQuestion =  CurrentADC.PropQuestion("questionState") %}
+    <input type="hidden" name="{%= stateQuestion.InputName() %}" value="{%= stateQuestion.InputValue() %}" />
 </div>

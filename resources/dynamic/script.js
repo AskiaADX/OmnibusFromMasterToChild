@@ -7,7 +7,7 @@
             const el = document.getElementById("redirection{%= CurrentADC.InstanceId %}");
 			document.write(el.value);
         } else {
-            document.forms[0].submit();
+           document.forms[0].submit();
         }
     }, 0);
 }());
